@@ -88,7 +88,7 @@ public class Weather {
     /**
      * @return the forecast
      */
-    private List<Forecast> getForecast() {
+    public List<Forecast> getForecast() {
         return forecast;
     }
 
